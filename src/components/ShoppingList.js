@@ -5,7 +5,7 @@ import Item from "./Item";
 
 function ShoppingList() {
   const [selectedCategory, setSelectedCategory] = useState("All");
-  const [items, setItems] = useState([]);
+  const [items] = useState([]);
 
   function handleCategoryChange(category) {
     setSelectedCategory(category);
